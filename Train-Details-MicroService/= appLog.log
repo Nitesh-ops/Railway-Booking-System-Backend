@@ -1,0 +1,135 @@
+2022-05-14 15:48:23,313 [INFO] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] Starting TrainDetailsMicroServiceApplication using Java 17.0.3.1 on DESKTOP-8DC6F4G with PID 11260 (D:\Railway Project\Train-Details-MicroService\target\classes started by nites in D:\Railway Project\Train-Details-MicroService)
+2022-05-14 15:48:23,322 [DEBUG] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-14 15:48:23,324 [INFO] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-14 15:48:23,502 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 15:48:23,504 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 15:48:24,873 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-14 15:48:25,073 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 182 ms. Found 1 MongoDB repository interfaces.
+2022-05-14 15:48:25,365 [INFO] org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=4038b990-2fce-3fc0-85dd-ddd99f8ff83f
+2022-05-14 15:48:26,018 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-05-14 15:48:26,026 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-05-14 15:48:26,027 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-14 15:48:26,156 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-14 15:48:26,156 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2650 ms
+2022-05-14 15:48:26,375 [INFO] org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-14 15:48:26,449 [INFO] org.mongodb.driver.connection [cluster-rtt-ClusterId{value='627f81f25da0922d3782ff49', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:9}] to localhost:27017
+2022-05-14 15:48:26,449 [INFO] org.mongodb.driver.connection [cluster-ClusterId{value='627f81f25da0922d3782ff49', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017
+2022-05-14 15:48:26,450 [INFO] org.mongodb.driver.cluster [cluster-ClusterId{value='627f81f25da0922d3782ff49', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24871800}
+2022-05-14 15:48:26,537 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-14 15:48:26,653 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-14 15:48:26,700 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-14 15:48:27,762 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will not secure any request
+2022-05-14 15:48:28,240 [INFO] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-14 15:48:29,509 [INFO] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-14 15:48:29,713 [WARN] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-14 15:48:29,831 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-14 15:48:29,900 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-14 15:48:29,906 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-14 15:48:29,940 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-14 15:48:29,940 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-14 15:48:29,940 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-14 15:48:29,940 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-14 15:48:29,940 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-14 15:48:29,941 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-14 15:48:29,941 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-14 15:48:30,374 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-14 15:48:30,384 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-14 15:48:30,391 [INFO] com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-14 15:48:30,406 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1652523510405 with initial instances count: 2
+2022-05-14 15:48:30,407 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application TRAIN-DETAIL-SERVICE with eureka with status UP
+2022-05-14 15:48:30,408 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1652523510408, current=UP, previous=STARTING]
+2022-05-14 15:48:30,410 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_TRAIN-DETAIL-SERVICE/192.168.1.38:train-detail-service:8081: registering service...
+2022-05-14 15:48:30,436 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-14 15:48:30,438 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8081
+2022-05-14 15:48:30,463 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_TRAIN-DETAIL-SERVICE/192.168.1.38:train-detail-service:8081 - registration status: 204
+2022-05-14 15:48:30,581 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-05-14 15:48:30,606 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-05-14 15:48:30,686 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-05-14 15:48:30,903 [INFO] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: openapiJsonUsingGET_1
+2022-05-14 15:48:30,981 [INFO] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] Started TrainDetailsMicroServiceApplication in 8.552 seconds (JVM running for 9.496)
+2022-05-14 15:49:07,958 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 15:49:07,959 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-14 15:49:07,961 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2022-05-14 15:49:08,580 [INFO] org.mongodb.driver.connection [http-nio-8081-exec-1] Opened connection [connectionId{localValue:3, serverValue:11}] to localhost:27017
+2022-05-14 15:49:08,720 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-1] Showing all trains
+2022-05-14 15:49:08,916 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-2] Showing all trains
+2022-05-14 15:52:18,857 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-4] Showing all trains
+2022-05-14 15:52:19,001 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-5] Showing all trains
+2022-05-14 15:52:39,765 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-6] Showing all trains
+2022-05-14 15:52:39,898 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-7] Showing all trains
+2022-05-14 15:53:29,951 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-14 15:54:42,006 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-9] Showing all trains
+2022-05-14 15:54:42,150 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-10] Showing all trains
+2022-05-14 15:55:33,553 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-1] Showing Trains Between stations
+2022-05-14 15:56:21,759 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-2] Showing Train By Train Number
+2022-05-14 15:56:22,031 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-3] Showing Train By Train Number
+2022-05-14 15:58:29,966 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-14 15:59:28,782 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-5] Showing Train By Train Number
+2022-05-14 15:59:29,068 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-6] Inside Update Train  details by Number
+2022-05-14 16:01:40,239 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-8] Showing all trains
+2022-05-14 16:01:40,450 [TRACE] com.details.train.controller.TrainController [http-nio-8081-exec-9] Showing all trains
+2022-05-14 16:03:29,974 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-14 16:07:56,500 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-1] Unregistering application TRAIN-DETAIL-SERVICE with eureka with status DOWN
+2022-05-14 16:07:56,500 [INFO] com.netflix.discovery.DiscoveryClient [Thread-1] Saw local status change event StatusChangeEvent [timestamp=1652524676500, current=DOWN, previous=UP]
+2022-05-14 16:07:56,501 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_TRAIN-DETAIL-SERVICE/192.168.1.38:train-detail-service:8081: registering service...
+2022-05-14 16:07:56,513 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_TRAIN-DETAIL-SERVICE/192.168.1.38:train-detail-service:8081 - registration status: 204
+2022-05-14 16:07:56,620 [INFO] com.netflix.discovery.DiscoveryClient [Thread-1] Shutting down DiscoveryClient ...
+2022-05-14 16:07:59,633 [INFO] com.netflix.discovery.DiscoveryClient [Thread-1] Unregistering ...
+2022-05-14 16:07:59,639 [INFO] com.netflix.discovery.DiscoveryClient [Thread-1] DiscoveryClient_TRAIN-DETAIL-SERVICE/192.168.1.38:train-detail-service:8081 - deregister  status: 200
+2022-05-14 16:07:59,703 [INFO] com.netflix.discovery.DiscoveryClient [Thread-1] Completed shut down of DiscoveryClient
+2022-05-14 16:08:09,924 [INFO] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] Starting TrainDetailsMicroServiceApplication using Java 17.0.3.1 on DESKTOP-8DC6F4G with PID 11260 (D:\Railway Project\Train-Details-MicroService\target\classes started by nites in D:\Railway Project\Train-Details-MicroService)
+2022-05-14 16:08:09,924 [DEBUG] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-05-14 16:08:09,924 [INFO] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-14 16:08:10,296 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-14 16:08:10,305 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 MongoDB repository interfaces.
+2022-05-14 16:08:10,378 [INFO] org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=4038b990-2fce-3fc0-85dd-ddd99f8ff83f
+2022-05-14 16:08:10,780 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-05-14 16:08:10,781 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-05-14 16:08:10,781 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-14 16:08:10,811 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-14 16:08:10,811 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 884 ms
+2022-05-14 16:08:10,841 [INFO] org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-05-14 16:08:10,850 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-14 16:08:10,863 [INFO] org.mongodb.driver.connection [cluster-ClusterId{value='627f86925da0922d3782ff4c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:8, serverValue:17}] to localhost:27017
+2022-05-14 16:08:10,863 [INFO] org.mongodb.driver.connection [cluster-rtt-ClusterId{value='627f86925da0922d3782ff4c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:9, serverValue:18}] to localhost:27017
+2022-05-14 16:08:10,863 [INFO] org.mongodb.driver.cluster [cluster-ClusterId{value='627f86925da0922d3782ff4c', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=18517200}
+2022-05-14 16:08:10,871 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-14 16:08:10,879 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-14 16:08:11,167 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will not secure any request
+2022-05-14 16:08:11,456 [INFO] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-14 16:08:11,791 [INFO] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-05-14 16:08:11,997 [WARN] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-14 16:08:12,029 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-14 16:08:12,046 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-14 16:08:12,046 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-05-14 16:08:12,057 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-05-14 16:08:12,057 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-05-14 16:08:12,057 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-05-14 16:08:12,057 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-05-14 16:08:12,057 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-05-14 16:08:12,057 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-05-14 16:08:12,057 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-05-14 16:08:12,083 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-05-14 16:08:12,088 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-05-14 16:08:12,094 [INFO] com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-14 16:08:12,106 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1652524692106 with initial instances count: 3
+2022-05-14 16:08:12,107 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application TRAIN-DETAIL-SERVICE with eureka with status UP
+2022-05-14 16:08:12,107 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1652524692107, current=UP, previous=STARTING]
+2022-05-14 16:08:12,108 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_TRAIN-DETAIL-SERVICE/192.168.1.38:train-detail-service:8081: registering service...
+2022-05-14 16:08:12,113 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-14 16:08:12,114 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8081
+2022-05-14 16:08:12,129 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_TRAIN-DETAIL-SERVICE/192.168.1.38:train-detail-service:8081 - registration status: 204
+2022-05-14 16:08:12,274 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-05-14 16:08:12,275 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-05-14 16:08:12,294 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-05-14 16:08:12,403 [INFO] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: openapiJsonUsingGET_1
+2022-05-14 16:08:12,450 [INFO] com.details.train.TrainDetailsMicroServiceApplication [restartedMain] Started TrainDetailsMicroServiceApplication in 2.682 seconds (JVM running for 1190.965)
+2022-05-14 16:08:12,453 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-14 16:08:21,913 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 16:08:21,913 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-14 16:08:21,915 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2022-05-14 16:08:24,601 [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8081-exec-3] Init duration for springdoc-openapi is: 306 ms
+2022-05-14 16:13:12,069 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-14 16:18:12,072 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-14 16:23:12,074 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-05-14 16:28:12,091 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
